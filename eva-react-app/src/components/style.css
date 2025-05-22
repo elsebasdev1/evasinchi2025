@@ -1,0 +1,42 @@
+form {
+    border-collapse: collapse;
+    width: 50%;
+    margin-top: 20px;
+    background-color: #fff; /* Verde muy claro */
+    color: #1b5e20; /* Verde oscuro para el texto */
+    font-family: Arial, sans-serif;
+    margin: auto;
+  }
+  
+  th, td {
+    border: 1px solid #66bb6a; /* Borde verde medio */
+    padding: 8px;
+    text-align: left;
+  }
+  
+  th {
+    background-color: #a5d6a7; /* Verde más fuerte para encabezados */
+  }
+  
+  tr:nth-child(even) {
+    background-color: #c8e6c9; /* Verde claro para filas pares */
+  }
+  
+  tr:hover {
+    background-color: #81c784; /* Verde al pasar el mouse */
+  }
+  
+  button {
+    margin-right: 5px;
+    background-color: #4caf50;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 4px;
+  }
+  
+  button:hover {
+    background-color: #388e3c;
+  }
+  

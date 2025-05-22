@@ -1,0 +1,18 @@
+{
+  "projects": {
+    "default": "evasinchi2025"
+  },
+  "targets": {
+    "evasinchi2025": {
+      "hosting": {
+        "vue-site": [
+          "eva-vue-app"
+        ],
+        "react-site": [
+          "eva-react-app"
+        ]
+      }
+    }
+  },
+  "etags": {}
+}
