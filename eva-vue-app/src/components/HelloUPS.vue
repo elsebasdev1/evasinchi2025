@@ -31,10 +31,6 @@ import {
 } from 'firebase/firestore';
 
 export default {
-  name: 'holaUPS',
-  props: {
-    texto: String
-  },
   data() {
     return {
       nombre: '',
@@ -60,14 +56,8 @@ export default {
         console.error('Error en la escucha de Firestore:', error);
       });
     },
-    editar(persona) {
-      this.nombre = persona.nombre;
-      this.precio = persona.precio;
-      this.stock = persona.stock;
-      this.editando = persona.id;
-    },
     async eliminar(id) {
-      if (!confirm('¿Estás seguro de eliminar este contacto?')) return;
+      if (!confirm('¿Estás seguro de eliminar este producto?')) return;
       try {
         const contactoRef = doc(db, 'products', id);
         await deleteDoc(contactoRef);
